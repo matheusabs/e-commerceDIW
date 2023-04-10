@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>MABS Sanfonas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="grid">
+                <section class="logo">
+                    <img src="imagens/Logo.png"></imgsrc>
+                </section>
+
+                <section class="box1">
+                    <p>Na MABS Sanfonas, seu coração é que dá o tom da música. </p>
+            
+                        <aside>
+                            <label class="barra_pesquisa">
+                                <input type="text" name="busca geral" value="Pesquise aqui seu produto" size="30">
+                                <button> 
+                                    &#128270;
+                                </button>
+                            </label>
+        
+                    </section>
+        
+                    <nav>
+                        <ul type="none">
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Track order</a></li>
+                        </ul>
+                    </nav>
+        
+                    <section class="box2">
+        
+                        <p> Frete Gratis | BH e Região <br> Garanta já a sua sanfona! </p>
+        
+                        <button class="carrinho">
+                            &#x1F6D2; <br>
+                            My cart
+                        </button>
+                    </aside>
+                    </section>     
+        </header> 
+        
+        <main>
+
+            <!-- Caixa de Pesuisa -->
+            <section class="pesquisa">
+                <label>
+                    <h4> Busca </h4>
+                    <p>Encontre aqui a melhor sanfona para você:</p>
+                
+                    <form name="pesquisa rápida" action="index.html" method="POST">
+                        <!-- Pesquisa pelo número de baixos-->
+
+                        <select name="Número da Baixaria">
+                            <option value="24 baixos"> Selecione o número de Baixos</option>
+                            <option value="24 baixos"> 24 baixos</option>
+                            <option value="48 baixos"> 48 baixos</option>
+                            <option value="60 baixos"> 60 baixos</option>
+                            <option value="80 baixos"> 80 baixos</option>
+                            <option value="120 baixos">120 baixos</option>
+                        </select>
+
+                        <!-- Pesquisa Fabricante-->
+ 
+                        <select name="Marca do Fabricante" value="Selecione a fabricante" size="1">
+                            <option value="Excelsior">Selecione a fabricante</option>
+                            <option value="Excelsior">Excelsior</option>
+                            <option value="Giulietti">Giulietti</option>
+                            <option value="Hohner">Hohner</option>
+                            <option value="Michael">Michael</option>
+                            <option value="Paolo Soprani">Paolo Soprani</option>
+                            <option value="Rolland">Rolland</option>
+                            <option value="Scandalli">Scandalli</option>
+                            <option value="Todeschini">Todeschini</option>
+                            <option value="Universal">Universal</option>
+                        </select>
+
+                        <!-- Pesquisa pelo preço -->
+                        <div class="valor">
+                            $
+                            <input name="min" type="number" size="5">
+                            $
+                            <input name="max" type="number" size="5">
+                        <br/>
+                        </div>
+
+                        <!-- Submit-->
+                        <input class="botao_enviar" type="submit" value="Enviar">
+
+                    </form>
+                </label>
+            
+            </section>
+            <!-- Carrossel de Imagens -->
+            <div class="carrossel">
+                <section class="produto_carrousel">
+                    <img src="imagens/carrossel (1).jpg" class="item">
+                    <img src= "imagens/carrossel (2).jpg" class="item">
+                    <img src="imagens/carrossel (3).jpg" class="item">
+                    <img src="imagens/carrossel (4).jpg" class="item">
+                    <img src="imagens/carrossel (5).jpg" class="item">
+
+                </section> 
+            </div>
+        </main>
+
+        <div class="caixa_produtos">
+            <article class="produtos">
+                <div class="card">
+                    <h2>Acordeon Moreschi <br> 120 baixos</h2>
+                    <img class = "item" src="imagens/ACORDEON 120 BAIXOS MORESCHI DUPLA RESSONÂNCIA JÁ ELETRIFICADA.webp">
+                    <p>R$ 12.000 à vista</p>
+                        <div class="avaliacao">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star (1).png">
+                        </div>
+                </div>
+                <div class="card">
+                    <h2>Acordeon Brandoni <br> 120 baixos</h2>
+                    <img class = "item" src="imagens/brandoni 120.webp">
+                    <p>R$ 8.000 à vista</p>
+                        <div class="avaliacao">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star (1).png">
+                            <img src="imagens/star (1).png">
+                        </div>
+                </div>
+                <div class="card">
+                    <h2>Acordeon Eagle <br> 120 baixos</h2>
+                    <img class = "item" src="imagens/Eagle 120.jpg">
+                    <p>R$ 25.000 à vista</p>
+                        <div class="avaliacao">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                        </div>
+                </div>
+                <div class="card">
+                    <h2>Acordeon Michael <br> 8 baixos</h2>
+                    <img class = "item" src="imagens/michael 8bx.png">
+                    <p>R$ 2.600 à vista</p>
+                        <div class="avaliacao">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star (1).png">
+                            <img src="imagens/star (1).png">
+                            <img src="imagens/star (1).png">
+                        </div>
+                </div>
+                <div class="card">
+                    <h2>Acordeon Michael <br> 48 baixos</h2>
+                    <img class = "item" src="imagens/michael 48bx.png">
+                    <p>R$ 8.300 à vista</p>
+                        <div class="avaliacao">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                        </div>
+                </div>
+                <div class="card">
+                    <h2>Acordeon Michael <br> 120 baixos</h2>
+                    <img class = "item" src="imagens/Michael 120.png">
+                    <p>R$ 18.500 à vista</p>
+                        <div class="avaliacao">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star (1).png">
+                        </div>
+                </div>
+                <div class="card">
+                    <h2>Protetor de Fole <br> Acordeon 80 baixos</h2>
+                    <img class = "item" src="imagens/protetor de fole.jpeg">
+                    <p>R$ 220,00 à vista </p>
+                        <div class="avaliacao">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star (1).png">
+                        </div>
+                </div>
+                <div class="card">
+                    <h2>Kit Alças <br> Couro Marrom </h2>
+                    <img class = "item" src="imagens/kit alça marrom.jpeg" >
+                    <p>R$ 300,00 à vista</p>
+                        <div class="avaliacao">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                        </div>
+                </div>
+                <div class="card">
+                    <h2>Case Rígido <br> 120 baixos</h2>
+                    <img class = "item" src="imagens/case rigido.jpg">
+                    <p>R$ 320,00 à vista</p>
+                        <div class="avaliacao">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                            <img src="imagens/star.png">
+                        </div>
+                </div>
+            </article>
+            
+            <aside class="lado">
+                <div class="mais_vistos">
+                    <h2> Produtos mais vistos</h2>
+    
+                    <div class="item_visto">
+                        <img class = "item" src="imagens/michael 48bx.png">
+                            <div class="descicao">
+                                <h3>Acordeon Michael - 48 baixos</h3>
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <p>R$ 8.300 à vista</p> 
+                            </div>
+                    </div>  
+                    <div class="item_visto">
+                        <img class = "item" src="imagens/kit alça marrom.jpeg">
+                            <div class="descicao">
+                                <h3>Kit Alças Couro Marrom</h3>
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <p>R$ 300,00 à vista</p> 
+                            </div>
+                    </div>  
+                    <div class="item_visto">
+                        <img class = "item" src="imagens/Michael 120.png">
+                            <div class="descicao">
+                                <h3>Acordeon Michael - 120 baixos</h3>
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star (1).png">
+                                <p>R$ 18.500 à vista</p> 
+                            </div>
+                    </div>  
+                    <div class="item_visto">
+                        <img class = "item" src="imagens/case rigido.jpg">
+                            <div class="descicao">
+                                <h3>Case Rídigo <br> 120 baixos</h3>
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <p>R$ 320,00 à vista</p> 
+                            </div>
+                    </div>  
+                    <div class="item_visto">
+                        <img class = "item" src="imagens/ACORDEON 120 BAIXOS MORESCHI DUPLA RESSONÂNCIA JÁ ELETRIFICADA.webp">
+                            <div class="descicao">
+                                <h3>Acordeon Moreschi - 120 baixos</h3>
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star.png">
+                                <img src="imagens/star (1).png">
+                                <p>R$ 12.000 à vista</p> 
+                            </div>
+                    </div>  
+                    
+                    <label>
+                        <button class="veja_mais">
+                            Veja Mais
+                        </button>
+                    </label>
+                </div>
+
+                <div class="newsletter">
+                    <form>
+                        <h3>Newsletter</h3>
+                        <p>Inscreva-se na nossa newsletter!</p>
+                        <input name="max" type="email" size="20">
+                        <input type="submit"value="Inscrever"></input>
+                    </form>
+                    
+                </div>
+            </aside>
+        </div>
+        <section class="rodape">
+            <div class="pagamentos">
+                <h2>Metodos de Pagamento</h2>
+                <img src="imagens/discover.png">
+                <img src="imagens/visa.png">
+                <img src="imagens/mastercard.png">
+                <img src="imagens/paypal.png">
+                <img src="imagens/boleto.png">
+                <img src="imagens/pix.png">                
+            </div>
+            <div class="links">
+                <h2> Links Úteis</h2>
+                <a href="#">Ajuda</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Cancelamento e Devoluções</a>
+                <a href="#">Perguntas Frequentes</a>
+                <a href="#">Direito do Consumidor</a>
+                <a href="#">Trabalhe Conosco</a>
+            </div>
+            <div class="social">
+                <h2>Redes Sociais</h2>
+                <a href="https://www.facebook.com"><img src="imagens/face.png"></a>
+                <a href="https:/www.instagram.com"><img src="imagens/insta.png"></a>
+                <a href="https:/www.whatsapp.com"><img src="imagens/wpp.png"></a>
+            </div>
+            <div class="contato">
+                <h2>Fale Conosco</h2>
+                <a href="https://www.google.com/maps/search/endere%C3%A7o+puc+contagem/@-19.9395243,-44.0784393,17z/data=!3m1!4b1"><img src="imagens/localizacao.png">R. Rio Comprido - Cinco, Contagem - MG, 32010-025</a>
+                <a href="mailto:mabsanfonas@gmail.com"><img src="imagens/mail.png">mabsanfonas@gmail.com</a>
+                <a href="mailto:mabsanfonas@gmail.com"><img src="imagens/telefone.png"> 0800 4002-8922</a>
+            </div>
+        </section>
+        <footer>
+            <p> &#169; MABS Sanfonas 2023 </p>
+        </footer>
+    </body>
+</html>
